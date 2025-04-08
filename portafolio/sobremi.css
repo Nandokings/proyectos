@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+nav button {
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1d1d1d;
+    padding: 30px;
+    text-align: center;
+    }

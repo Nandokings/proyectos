@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>Mi Portafolio</h1>
+    <p>Bienvenido a mi sitio personal</p>
+</header>
+
+<nav>
+    <a href="index.html" target="_self"><button>Inicio</button></a>
+    <a href="sobremi.html" target="_self"><button>Sobre mí</button></a>
+    <a href="proyectos.html" target="_self"><button>Proyectos</button></a>
+</nav>
+
+<div class="content-section">
+    <p>Mi nombre es Fernando De La Cruz, Matricula: 22-misn-2-022. Soy un joven estudiante de Ingeniería en Sistemas con pasión por el desarrollo web frontend. Me especializo en crear interfaces modernas, responsivas y centradas en la experiencia del usuario, utilizando tecnologías como HTML, CSS, JavaScript y frameworks actuales. Estoy comprometido con el aprendizaje constante y la entrega de soluciones visualmente atractivas y funcionales para cada proyecto.</p>
+    <img src="ft mia.jpg" alt="Imagen de perfil o proyecto">
+</div>
+
+<div class="social-buttons">
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    <a href="https://github.com" target="_blank">GitHub</a>
+</div>
+
+<form id="contact-form">
+    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+    <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+</form>
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    alert(`Gracias por tu mensaje, ${name}! Nos pondremos en contacto contigo pronto.`);
+    this.reset();
+    });
+</script>
+</body>
+</html>

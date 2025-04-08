@@ -1,0 +1,29 @@
+h1 {
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1d1d1d;
+    padding: 30px;
+    text-align: center;
+    }
+
+    nav button {
+        padding: 10px 20px;
+        background-color: #6c63ff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+.project {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 8px;
+    }

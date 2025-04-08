@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #003366, #000000);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contenedor {
+  display: flex;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.juego {
+  margin-right: 20px;
+  max-width: 300px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.botones button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botones button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.botones button:last-child {
+  background-color: #6c757d;
+  color: white;
+}
+
+.imagen img {
+  max-width: 300px;
+  border-radius: 10px;
+}
